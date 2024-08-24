@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.cursee.examplemod.ExampleModFabric"
+            "com.modding_journeys.examplemod.ExampleModFabric"
         ]
     },
     "mixins": [
@@ -27,8 +27,7 @@
         "fabricloader": ">=0.14",
         "fabric": "*",
         "minecraft": "*",
-        "java": ">=17",
-        "monolib": ">=1.3.0"
+        "java": ">=17"
     },
     "suggests": {
         "another-mod": "*"

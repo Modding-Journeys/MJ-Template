@@ -1,4 +1,4 @@
-package com.cursee.examplemod.platform.services;
+package com.modding_journeys.examplemod.platform.services;
 
 public interface IPlatformHelper {
 

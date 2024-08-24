@@ -1,6 +1,6 @@
-package com.cursee.examplemod.platform;
+package com.modding_journeys.examplemod.platform;
 
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.modding_journeys.examplemod.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
