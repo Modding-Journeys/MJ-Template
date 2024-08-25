@@ -17,6 +17,12 @@ pluginManagement {
             name = 'Sponge Snapshots'
             url = 'https://repo.spongepowered.org/repository/maven-public/'
         }
+
+        // Required for PachmentMC mappings
+        maven {
+            name = "ParchmentMC"
+            url = 'https://maven.parchmentmc.org'
+        }
     }
 }
 
