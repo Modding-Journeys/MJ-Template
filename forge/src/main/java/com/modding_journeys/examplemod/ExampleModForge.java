@@ -8,5 +8,9 @@ public class ExampleModForge {
     public ExampleModForge() {
     
         ExampleMod.init();
+
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModRegistryForge.register(modEventBus);
     }
 }
